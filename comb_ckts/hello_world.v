@@ -1,3 +1,4 @@
-module hello_world():
+module hello_world();
+initial
 $display("hello verilog world!");
 endmodule
