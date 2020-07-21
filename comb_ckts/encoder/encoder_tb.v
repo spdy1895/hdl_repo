@@ -9,7 +9,8 @@ wire [2:0] Y;
 reg [7:0] I;
 
 //instantiate
-encoder e1(Y,I);
+//encoder e1(Y,I);
+encoder_for e1(Y,I);
 
 initial begin
     $dumpfile("encoder_tb.vcd");
@@ -25,7 +26,7 @@ initial begin
     #1 I=8'b0010_0000;
     #1 I=8'b0100_0000;
     #1 I=8'b1000_0000;
-
+    
 end
 
 endmodule //encoder_tb
