@@ -13,6 +13,9 @@ operators o1( , ,A,B);
 
 initial begin
 
+    $dumpfile("operators_tb.vcd");
+    $dumpvars(0,operators_tb);
+
     A= 4'b1010;
     B= 4'b0101;
     $display("testbench debugging complete!");
