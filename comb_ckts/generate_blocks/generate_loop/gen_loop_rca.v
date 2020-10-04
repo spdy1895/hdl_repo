@@ -21,7 +21,7 @@ generate
     xor g2(sum[i], t1, carry[i]);
     and g3(t2, in1[i], in2[i]);
     and g4(t3, t1, carry[i]);
-    or g5(carry[i+1], t2, t3);        
+    or g5(carry[i+1], t2, t3);       
     end
 endgenerate
 assign carry[0]= carry_in;
