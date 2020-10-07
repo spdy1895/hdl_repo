@@ -20,7 +20,9 @@ initial begin
     clr= 1'b1; #29;
     clr= 1'b0; d= 1'b1; #30; // set flip flop
     d= 1'b0; #30; //reset flip flop
-
+    d= 1'b1; #28; //set flip flop
+    clr= 1'b1; #30; //set clear to check behavior 
+                    //towards asynchronous clear input
     $finish;
 
 end

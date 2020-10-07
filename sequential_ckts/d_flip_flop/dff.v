@@ -1,4 +1,5 @@
-//master-slave d flip flop
+//master-slave d flip flop with 
+//asynchronous clear input.
 module dff (output wire q, qbar,
             input wire d, clk, clr
     
