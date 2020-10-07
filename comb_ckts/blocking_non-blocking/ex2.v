@@ -1,8 +1,10 @@
 //hdl module for demonstrating the behaviour of variables 
-module ex2 (output reg c, d, e, f, g
+module ex2 (output reg c, d, e, f, g, h
 );
 
 reg a, b;
+
+initial h= #25 (a|b);
 
 initial #1 d= #25 (a|b);    //this is some sort of scheduled assignment so take values of a and b 
                             //at 1 time units then or them and assign after 25 time units. Meanwhile 
