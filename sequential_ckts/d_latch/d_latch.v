@@ -1,12 +1,12 @@
 //module to describe d latch using wait statement
 module d_latch (output reg q,
-                input d, clk
+                input d, enable
     
 );
 
-always @(clk) begin
-    if(!clk) q<= q;
-    wait(clk) q<= d;
+always @(enable or d) begin
+    if(!enable) q<= q;
+    wait(enable) q<= d;
 end
 
 endmodule //d_latch

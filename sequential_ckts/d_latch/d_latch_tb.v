@@ -6,13 +6,13 @@ module d_latch_tb (
 );
 
 wire q;
-reg d, clk;
+reg d, enable;
 
-d_latch d1(q, d, clk);
+d_latch d1(q, d, enable);
 
 initial begin
-    clk= 1'b0;
-    forever #5 clk= ~clk;
+    enable= 1'b0;
+    forever #5 enable= ~enable;
 end
 
 initial begin
