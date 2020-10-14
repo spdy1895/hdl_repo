@@ -1,5 +1,6 @@
 //test bench for magnitude comparator
 `timescale 1ns/1ps
+`include "mag_comp.v"
 module mag_comp_tb (
     
 );
