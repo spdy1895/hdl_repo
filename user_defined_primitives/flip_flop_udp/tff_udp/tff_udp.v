@@ -1,7 +1,7 @@
 //user defined primitive for t flip flop
 primitive tff_udp(q, t, clock, clear); 
 output q;
-reg q;
+reg q; kz
 input t, clock, clear;
 initial q=1'b0;
 table
