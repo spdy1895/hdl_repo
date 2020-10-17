@@ -13,8 +13,9 @@ initial begin
     $dumpfile("verilog_task_tb.vcd");
     $dumpvars(0, verilog_task_tb);
 
-    {a, b}= {16'd25, 16'd32}; #30;
-    {a, b}= {16'd16, 16'd7}; #30;
+    {a, b}= {16'd25, 16'd29}; #30;
+    a= 16'd13; #30;
+    b= 16'd27; #30;
 end
 
 endmodule //verilog_task_tb
