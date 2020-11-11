@@ -6,5 +6,4 @@ module ADD (output reg [15:0] out,
 always @(*) begin
     out= in1 + in2;
 end
-
 endmodule //ADD
