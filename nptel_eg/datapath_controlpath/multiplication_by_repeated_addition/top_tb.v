@@ -5,10 +5,11 @@ module top_tb (
 );
 
 wire done;
+wire [15:0] MUL_output;
 reg [15:0] data_in;
 reg start, clk;
 
-top t0(done, data_in, start, clk);
+top t0(done, MUL_output, data_in, start, clk);
 
 initial begin
     clk= 1'b0;

@@ -14,6 +14,7 @@
 `include "EQZ.v"
 
 module MUL_datapath (output wire eqz,
+                    output wire [15:0] MUL_output, 
                     input wire LdA, LdB, LdP,
                     clrP, decB, clk,
                     input wire [15:0] data_in
@@ -22,6 +23,7 @@ module MUL_datapath (output wire eqz,
 wire [15:0] X, Y, Z, Bout, Bus;
 
 assign Bus= data_in;
+assign MUL_output= Y;
 
 PIPO1 A(X, Bus, LdA, clk);
 PIPO2 P(Y, Z, LdP, clrP, clk);
