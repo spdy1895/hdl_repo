@@ -1,0 +1,531 @@
+$date
+	Mon Nov 16 13:04:07 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module top_tb $end
+$var wire 1 ! done $end
+$var wire 10 " MUL_result [9:0] $end
+$var reg 1 # clk $end
+$var reg 5 $ data_in [4:0] $end
+$var reg 1 % start $end
+$scope module t0 $end
+$var wire 1 # clk $end
+$var wire 5 & data_in [4:0] $end
+$var wire 1 % start $end
+$var wire 1 ' sftQ $end
+$var wire 1 ( sftDff $end
+$var wire 1 ) sftA $end
+$var wire 1 * qm1 $end
+$var wire 1 + q0 $end
+$var wire 1 , eqz $end
+$var wire 1 ! done $end
+$var wire 1 - decr $end
+$var wire 1 . clrff $end
+$var wire 1 / clrQ $end
+$var wire 1 0 clrA $end
+$var wire 1 1 add_sub $end
+$var wire 10 2 MUL_result [9:0] $end
+$var wire 1 3 LdQ $end
+$var wire 1 4 LdM $end
+$var wire 1 5 LdCount $end
+$var wire 1 6 LdA $end
+$var wire 1 7 EnableALU $end
+$scope module CTRL $end
+$var wire 1 # clk $end
+$var wire 1 % start $end
+$var wire 1 * qm1 $end
+$var wire 1 + q0 $end
+$var wire 1 , eqz $end
+$var reg 1 7 EnableALU $end
+$var reg 1 6 LdA $end
+$var reg 1 5 LdCount $end
+$var reg 1 4 LdM $end
+$var reg 1 3 LdQ $end
+$var reg 1 1 add_sub $end
+$var reg 1 0 clrA $end
+$var reg 1 / clrQ $end
+$var reg 1 . clrff $end
+$var reg 1 - decr $end
+$var reg 1 ! done $end
+$var reg 1 ) sftA $end
+$var reg 1 ( sftDff $end
+$var reg 1 ' sftQ $end
+$var reg 3 8 state [2:0] $end
+$upscope $end
+$scope module DAT $end
+$var wire 1 7 EnableALU $end
+$var wire 1 6 LdA $end
+$var wire 1 5 LdCount $end
+$var wire 1 4 LdM $end
+$var wire 1 3 LdQ $end
+$var wire 1 1 add_sub $end
+$var wire 1 # clk $end
+$var wire 1 0 clrA $end
+$var wire 1 / clrQ $end
+$var wire 1 . clrff $end
+$var wire 5 9 data_in [4:0] $end
+$var wire 1 - decr $end
+$var wire 1 ) sftA $end
+$var wire 1 ( sftDff $end
+$var wire 1 ' sftQ $end
+$var wire 1 * qm1 $end
+$var wire 1 + q0 $end
+$var wire 1 , eqz $end
+$var wire 10 : data_out [9:0] $end
+$var wire 4 ; count [3:0] $end
+$var wire 5 < Z [4:0] $end
+$var wire 5 = Q [4:0] $end
+$var wire 5 > M [4:0] $end
+$var wire 4 ? LdCountValue [3:0] $end
+$var wire 5 @ A [4:0] $end
+$scope module AL $end
+$var wire 1 7 EnableALU $end
+$var wire 1 1 add_sub $end
+$var wire 5 A in2 [4:0] $end
+$var wire 5 B in1 [4:0] $end
+$var reg 5 C out [4:0] $end
+$upscope $end
+$scope module CN $end
+$var wire 1 5 Ld $end
+$var wire 1 # clk $end
+$var wire 1 - decr $end
+$var wire 4 D LdCountValue [3:0] $end
+$var reg 4 E data_out [3:0] $end
+$upscope $end
+$scope module QM1 $end
+$var wire 1 # clk $end
+$var wire 1 . clr $end
+$var wire 1 F d $end
+$var wire 1 ( sft $end
+$var reg 1 * q $end
+$upscope $end
+$scope module REG_A $end
+$var wire 1 6 Ld $end
+$var wire 1 # clk $end
+$var wire 1 0 clr $end
+$var wire 5 G data_in [4:0] $end
+$var wire 1 H s_in $end
+$var wire 1 ) sft $end
+$var reg 5 I data_out [4:0] $end
+$upscope $end
+$scope module REG_M $end
+$var wire 1 # clk $end
+$var wire 5 J data_in [4:0] $end
+$var wire 1 4 load $end
+$var reg 5 K data_out [4:0] $end
+$upscope $end
+$scope module REG_Q $end
+$var wire 1 3 Ld $end
+$var wire 1 # clk $end
+$var wire 1 / clr $end
+$var wire 5 L data_in [4:0] $end
+$var wire 1 M s_in $end
+$var wire 1 ' sft $end
+$var wire 4 N LdCountValue [3:0] $end
+$var reg 5 O data_out [4:0] $end
+$scope function no_of_multiplier_digits $end
+$var reg 5 P datat_in [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10110 P
+bx O
+b101 N
+xM
+b10110 L
+bx K
+b10110 J
+bx I
+xH
+bx G
+xF
+bx E
+b101 D
+bx C
+bx B
+bx A
+bx @
+b101 ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+b10110 9
+bx 8
+x7
+x6
+x5
+x4
+x3
+bx 2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+b10110 &
+1%
+b10110 $
+0#
+bx "
+x!
+$end
+#5000
+01
+07
+05
+0-
+04
+0.
+0(
+0!
+03
+0/
+0'
+06
+00
+0)
+b0 8
+1#
+#10000
+0#
+#15000
+14
+1.
+1/
+10
+b1 8
+1#
+#20000
+0#
+#25000
+0M
+0H
+0F
+0+
+15
+04
+0.
+13
+0/
+00
+b0 @
+b0 B
+b0 I
+b0 "
+b0 2
+b0 :
+b0 =
+b0 O
+0*
+b10110 >
+b10110 A
+b10110 K
+b10 8
+1#
+#26000
+b1101 P
+b1101 $
+b1101 &
+b1101 9
+b1101 J
+b1101 L
+#30000
+0#
+#35000
+1F
+1+
+0,
+b101 ;
+b101 E
+b1101 "
+b1101 2
+b1101 :
+b1101 =
+b1101 O
+1#
+#40000
+0#
+#45000
+b1010 <
+b1010 C
+b1010 G
+17
+05
+03
+16
+b100 8
+1#
+#50000
+0#
+#55000
+b10100 <
+b10100 C
+b10100 G
+07
+1-
+1(
+1'
+06
+1)
+b101 8
+b101001101 "
+b101001101 2
+b101001101 :
+b1010 @
+b1010 B
+b1010 I
+1#
+#60000
+0#
+#65000
+1M
+0F
+0+
+0-
+0(
+0'
+0)
+b101 @
+b101 B
+b101 I
+b10100110 "
+b10100110 2
+b10100110 :
+b110 =
+b110 O
+1*
+b100 ;
+b100 E
+b111 8
+1#
+#70000
+0#
+#75000
+b11011 <
+b11011 C
+b11011 G
+11
+17
+16
+b11 8
+1#
+#80000
+0#
+#85000
+b101 <
+b101 C
+b101 G
+1H
+01
+07
+1-
+1(
+1'
+06
+1)
+b1101100110 "
+b1101100110 2
+b1101100110 :
+b11011 @
+b11011 B
+b11011 I
+b101 8
+1#
+#90000
+0#
+#95000
+0-
+0(
+0'
+0)
+1F
+1+
+b111 8
+b11 ;
+b11 E
+0*
+b10011 =
+b10011 O
+b1110110011 "
+b1110110011 2
+b1110110011 :
+b11101 @
+b11101 B
+b11101 I
+1#
+#100000
+0#
+#105000
+b111 <
+b111 C
+b111 G
+17
+16
+b100 8
+1#
+#110000
+0#
+#115000
+b10001 <
+b10001 C
+b10001 G
+07
+1-
+1(
+1'
+06
+1)
+0H
+b101 8
+b11110011 "
+b11110011 2
+b11110011 :
+b111 @
+b111 B
+b111 I
+1#
+#120000
+0#
+#125000
+0-
+0(
+0'
+0)
+b11 @
+b11 B
+b11 I
+b1111001 "
+b1111001 2
+b1111001 :
+b11001 =
+b11001 O
+1*
+b10 ;
+b10 E
+b111 8
+1#
+#130000
+0#
+#135000
+1-
+1(
+1'
+1)
+b101 8
+1#
+#140000
+0#
+#145000
+0F
+0+
+0-
+0(
+0'
+0)
+b1 @
+b1 B
+b1 I
+b111100 "
+b111100 2
+b111100 :
+b11100 =
+b11100 O
+b1 ;
+b1 E
+b111 8
+1#
+#150000
+0#
+#155000
+b10111 <
+b10111 C
+b10111 G
+11
+17
+16
+b11 8
+1#
+#160000
+0#
+#165000
+b1 <
+b1 C
+b1 G
+1H
+01
+07
+1-
+1(
+1'
+06
+1)
+b1011111100 "
+b1011111100 2
+b1011111100 :
+b10111 @
+b10111 B
+b10111 I
+b101 8
+1#
+#170000
+0#
+#175000
+0-
+0(
+0'
+0)
+b111 8
+1,
+b0 ;
+b0 E
+0*
+b11110 =
+b11110 O
+b1101111110 "
+b1101111110 2
+b1101111110 :
+b11011 @
+b11011 B
+b11011 I
+1#
+#180000
+0#
+#185000
+1!
+b110 8
+1#
+#190000
+0#
+#195000
+1#
+#200000
+0#
+#205000
+1#
+#210000
+0#
+#215000
+1#
+#220000
+0#
+#225000
+1#
+#226000

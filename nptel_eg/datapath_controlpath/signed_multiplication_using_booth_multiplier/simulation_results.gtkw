@@ -1,0 +1,159 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Sun Nov 15 18:27:54 2020
+[*]
+[dumpfile] "D:\CODES\hdl_repo\nptel_eg\datapath_controlpath\signed_multiplication_using_booth_multiplier\top_tb.vcd"
+[dumpfile_mtime] "Sun Nov 15 18:26:47 2020"
+[dumpfile_size] 6114
+[savefile] "D:\CODES\hdl_repo\nptel_eg\datapath_controlpath\signed_multiplication_using_booth_multiplier\simulation_results.gtkw"
+[timestart] 0
+[size] 1600 877
+[pos] -1 -1
+*-14.330478 57600 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top_tb.
+[treeopen] top_tb.t0.
+[treeopen] top_tb.t0.DAT.
+[treeopen] top_tb.t0.DAT.AL.
+[treeopen] top_tb.t0.DAT.CN.
+[treeopen] top_tb.t0.DAT.REG_A.
+[treeopen] top_tb.t0.DAT.REG_Q.
+[sst_width] 197
+[signals_width] 254
+[sst_expanded] 1
+[sst_vpaned_height] 250
+@200
+-top-module
+@24
+top_tb.clk
+top_tb.start
+top_tb.data_in[4:0]
+top_tb.done
+top_tb.MUL_result[9:0]
+@200
+-
+-
+-CONTROLLER
+@24
+top_tb.t0.CTRL.LdA
+top_tb.t0.CTRL.clrA
+top_tb.t0.CTRL.sftA
+top_tb.t0.CTRL.LdQ
+@28
+top_tb.t0.CTRL.clrQ
+@24
+top_tb.t0.CTRL.sftQ
+top_tb.t0.CTRL.LdM
+top_tb.t0.CTRL.clrff
+top_tb.t0.CTRL.done
+top_tb.t0.CTRL.EnableALU
+top_tb.t0.CTRL.add_sub
+top_tb.t0.CTRL.LdCount
+top_tb.t0.CTRL.decr
+@200
+-
+@24
+[color] 6
+top_tb.t0.CTRL.eqz
+[color] 6
+top_tb.t0.CTRL.q0
+[color] 6
+top_tb.t0.CTRL.qm1
+[color] 7
+top_tb.t0.CTRL.state[2:0]
+@20000
+-
+@200
+-
+-MULTIPLICAND-REG M(PIPO)
+@28
+top_tb.t0.DAT.REG_M.clk
+@24
+top_tb.t0.DAT.REG_M.load
+top_tb.t0.DAT.REG_M.data_in[4:0]
+top_tb.t0.DAT.REG_M.data_out[4:0]
+@200
+-
+-
+-SHIFTREG--A
+@28
+top_tb.t0.DAT.REG_A.clk
+@24
+[color] 3
+top_tb.t0.DAT.REG_A.Ld
+[color] 3
+top_tb.t0.DAT.REG_A.clr
+[color] 3
+top_tb.t0.DAT.REG_A.sft
+[color] 3
+top_tb.t0.DAT.REG_A.s_in
+[color] 3
+top_tb.t0.DAT.REG_A.data_in[4:0]
+[color] 3
+top_tb.t0.DAT.REG_A.data_out[4:0]
+@200
+-
+@20000
+-
+@200
+-MULTIPLIER-SHIFTREG Q
+@28
+top_tb.t0.DAT.REG_Q.clk
+@24
+[color] 1
+top_tb.t0.DAT.REG_Q.Ld
+[color] 1
+top_tb.t0.DAT.REG_Q.clr
+[color] 1
+top_tb.t0.DAT.REG_Q.sft
+[color] 1
+top_tb.t0.DAT.REG_Q.s_in
+[color] 1
+top_tb.t0.DAT.REG_Q.data_in[4:0]
+[color] 1
+top_tb.t0.DAT.REG_Q.data_out[4:0]
+[color] 1
+top_tb.t0.DAT.REG_Q.LdCountValue[3:0]
+@200
+-
+@20000
+-
+@200
+-DFF
+@28
+top_tb.t0.DAT.QM1.clk
+@24
+[color] 5
+top_tb.t0.DAT.QM1.clr
+@29
+top_tb.t0.DAT.QM1.sft
+@24
+[color] 5
+top_tb.t0.DAT.QM1.d
+[color] 2
+top_tb.t0.DAT.QM1.q
+@200
+-
+-
+-ALU
+@24
+top_tb.t0.DAT.AL.EnableALU
+top_tb.t0.DAT.AL.add_sub
+top_tb.t0.DAT.AL.in1[4:0]
+top_tb.t0.DAT.AL.in2[4:0]
+top_tb.t0.DAT.AL.out[4:0]
+@200
+-
+-
+-COUNTER
+@28
+top_tb.t0.DAT.CN.clk
+top_tb.t0.DAT.CN.Ld
+@24
+[color] 7
+top_tb.t0.DAT.CN.LdCountValue[3:0]
+[color] 7
+top_tb.t0.DAT.CN.decr
+[color] 7
+top_tb.t0.DAT.CN.data_out[3:0]
+[pattern_trace] 1
+[pattern_trace] 0
