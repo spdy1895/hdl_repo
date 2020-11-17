@@ -1,0 +1,27 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue Nov 17 17:15:18 2020
+[*]
+[dumpfile] "D:\CODES\hdl_repo\sequential_ckts\basic_vending_machine\NEWSPAPER_VENDING_tb.vcd"
+[dumpfile_mtime] "Tue Nov 17 17:12:58 2020"
+[dumpfile_size] 2671
+[savefile] "D:\CODES\hdl_repo\sequential_ckts\basic_vending_machine\simulation_results.gtkw"
+[timestart] 0
+[size] 1280 697
+[pos] -1 -1
+*-18.456888 420000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] NEWSPAPER_VENDING_tb.
+[treeopen] NEWSPAPER_VENDING_tb.n0.
+[sst_width] 197
+[signals_width] 175
+[sst_expanded] 1
+[sst_vpaned_height] 187
+@28
+NEWSPAPER_VENDING_tb.clock
+NEWSPAPER_VENDING_tb.coin[1:0]
+NEWSPAPER_VENDING_tb.reset
+NEWSPAPER_VENDING_tb.newspaper
+NEWSPAPER_VENDING_tb.n0.PRES_STATE[1:0]
+NEWSPAPER_VENDING_tb.n0.NEXT_STATE[1:0]
+[pattern_trace] 1
+[pattern_trace] 0
