@@ -45,7 +45,7 @@ initial begin
     #180 coin= 2'b10; #40 coin= 2'b00;
     #80 coin= 2'b01; #40 coin= 2'b00;
 
-    #80 $finish;
+    #70 $finish;
 end
 
 endmodule //NEWSPAPER_VENDING_tb
