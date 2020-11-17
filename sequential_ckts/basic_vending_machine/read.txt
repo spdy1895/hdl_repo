@@ -1,0 +1,10 @@
+->design specification:
+a simple digital circuit is to be designed for the
+coin acceptor of an electronic newspaper vending machine:
+-assume that the newspaper costs 15Rs.
+-the coin acceptor takes only 5Rs and 10Rs.
+-exact change must be provided. The acceptor does not
+return extra money.
+-valid combinations including order of coins are 
+(5, 10), (5, 5, 5) (10, 5). 2x10 Rs are valid but 
+acceptor does not return money.
