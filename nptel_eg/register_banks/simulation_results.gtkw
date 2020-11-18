@@ -1,0 +1,34 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Nov 18 13:03:23 2020
+[*]
+[dumpfile] "D:\CODES\hdl_repo\nptel_eg\register_banks\register_bank_tb.vcd"
+[dumpfile_mtime] "Wed Nov 18 12:53:06 2020"
+[dumpfile_size] 5950
+[savefile] "D:\CODES\hdl_repo\nptel_eg\register_banks\simulation_results.gtkw"
+[timestart] 297200
+[size] 1280 697
+[pos] -113 -90
+*-14.698524 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 197
+[signals_width] 134
+[sst_expanded] 1
+[sst_vpaned_height] 187
+@24
+register_bank_tb.clk
+register_bank_tb.reset
+register_bank_tb.write
+register_bank_tb.dr[4:0]
+register_bank_tb.wrData[31:0]
+@204
+-
+-
+@24
+register_bank_tb.sr1[4:0]
+register_bank_tb.rdData1[31:0]
+register_bank_tb.sr2[4:0]
+register_bank_tb.rdData2[31:0]
+@204
+-
+[pattern_trace] 1
+[pattern_trace] 0
