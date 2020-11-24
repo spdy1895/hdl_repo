@@ -1,0 +1,67 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue Nov 24 13:48:44 2020
+[*]
+[dumpfile] "D:\CODES\hdl_repo\nptel_eg\ALU_pipelining\pipe_ex2_tb.vcd"
+[dumpfile_mtime] "Tue Nov 24 13:47:12 2020"
+[dumpfile_size] 2607
+[savefile] "D:\CODES\hdl_repo\nptel_eg\ALU_pipelining\simulation_results.gtkw"
+[timestart] 0
+[size] 1280 697
+[pos] -1 -1
+*-15.153720 73900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 197
+[signals_width] 208
+[sst_expanded] 1
+[sst_vpaned_height] 187
+@200
+-
+-PIPELINE_STAGE-1
+@24
+pipe_ex2_tb.clk1
+@22
+pipe_ex2_tb.rs1[3:0]
+@24
+pipe_ex2_tb.p0.L12_A[15:0]
+@22
+pipe_ex2_tb.rs2[3:0]
+@24
+pipe_ex2_tb.p0.L12_B[15:0]
+@22
+pipe_ex2_tb.func[3:0]
+@c00024
+pipe_ex2_tb.p0.L12_func[3:0]
+@28
+(0)pipe_ex2_tb.p0.L12_func[3:0]
+(1)pipe_ex2_tb.p0.L12_func[3:0]
+(2)pipe_ex2_tb.p0.L12_func[3:0]
+(3)pipe_ex2_tb.p0.L12_func[3:0]
+@1401200
+-group_end
+@24
+pipe_ex2_tb.p0.L12_rd[3:0]
+pipe_ex2_tb.p0.L12_addr[7:0]
+@200
+-
+-PIPELINE_STAGE-2
+@24
+pipe_ex2_tb.clk2
+pipe_ex2_tb.p0.L23_Z[15:0]
+pipe_ex2_tb.p0.L23_rd[3:0]
+pipe_ex2_tb.p0.L23_addr[7:0]
+@200
+-
+-PIPELINE_STAGE-3
+@24
+pipe_ex2_tb.clk1
+pipe_ex2_tb.p0.L34_Z[15:0]
+pipe_ex2_tb.p0.L34_addr[7:0]
+@200
+-
+-PIPELINE_STAGE-4
+@24
+pipe_ex2_tb.clk2
+pipe_ex2_tb.p0.L34_Z[15:0]
+pipe_ex2_tb.p0.Zout[15:0]
+[pattern_trace] 1
+[pattern_trace] 0
