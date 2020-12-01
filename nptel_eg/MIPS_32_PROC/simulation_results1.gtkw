@@ -1,0 +1,58 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue Dec 01 05:49:50 2020
+[*]
+[dumpfile] "D:\CODES\hdl_repo\nptel_eg\MIPS_32_PROC\pipe_MIPS32_tb.vcd"
+[dumpfile_mtime] "Tue Dec 01 05:39:00 2020"
+[dumpfile_size] 3979
+[savefile] "D:\CODES\hdl_repo\nptel_eg\MIPS_32_PROC\simulation_results.gtkw"
+[timestart] 0
+[size] 1280 697
+[pos] -61 -61
+*-16.108843 175000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] pipe_MIPS32_tb.
+[sst_width] 197
+[signals_width] 267
+[sst_expanded] 1
+[sst_vpaned_height] 187
+@24
+pipe_MIPS32_tb.clk1
+pipe_MIPS32_tb.clk2
+@204
+-
+-
+-PIPELINE STAGE-1
+@24
+pipe_MIPS32_tb.mips.PC[31:0]
+pipe_MIPS32_tb.mips.IF_ID_IR[31:0]
+pipe_MIPS32_tb.mips.IF_ID_NPC[31:0]
+@204
+-
+-PIPELINE STAGE-2
+@24
+pipe_MIPS32_tb.mips.ID_EX_A[31:0]
+pipe_MIPS32_tb.mips.ID_EX_B[31:0]
+pipe_MIPS32_tb.mips.ID_EX_IR[31:0]
+pipe_MIPS32_tb.mips.ID_EX_Imm[31:0]
+pipe_MIPS32_tb.mips.ID_EX_type[2:0]
+@204
+-
+-PIPELINE STAGE-3
+@24
+pipe_MIPS32_tb.mips.EX_MEM_ALUOut[31:0]
+pipe_MIPS32_tb.mips.EX_MEM_IR[31:0]
+pipe_MIPS32_tb.mips.EX_MEM_type[2:0]
+@204
+-
+-PIPELINE STAGE-4
+@25
+[color] 5
++{pipe_MIPS32_tb.mips.MEM_WB_ALUOut[31:0]} pipe_MIPS32_tb.mips.MEM_WB_ALUOut[31:0]
+@24
+pipe_MIPS32_tb.mips.MEM_WB_IR[31:0]
+pipe_MIPS32_tb.mips.MEM_WB_type[2:0]
+@28
+[color] 2
+pipe_MIPS32_tb.mips.HALTED
+[pattern_trace] 1
+[pattern_trace] 0
