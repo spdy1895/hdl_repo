@@ -1,7 +1,7 @@
-`timescale 1ns/ 1ps 
+`timescale 1ns/ 1ps
 module SHIFTREG2 (
     output reg [4:0] data_out,
-    output wire [3:0] LdCountValue, 
+    output wire [3:0] LdCountValue,
     input wire [4:0] data_in,
     input wire s_in, clk, Ld, clr, sft
 );
@@ -22,9 +22,9 @@ function [3:0] no_of_multiplier_digits(input [4:0] datat_in);
         /*
         for (i= 4; i>= 0; i= i-1) begin
             if(data_in[i]!= 0) begin
-                no_of_multiplier_digits= i+1; 
+                no_of_multiplier_digits= i+1;
                 i= 0;
-            end 
+            end
         end
         */
     end
